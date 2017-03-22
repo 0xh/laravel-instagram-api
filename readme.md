@@ -3,11 +3,9 @@
 Laravel 5.4 integration for the [Instagram private API](https://github.com/mgp25/Instagram-API/) package.
 
 
-#Install
+# Install
 
 `composer require nakukryskin/laravel-instagram-api`
-
-#Usage
 
 Add provider into your `app.php` config:
 
@@ -32,7 +30,7 @@ Add alias into your `app.php` config:
 
 ```
 
-#Configuration
+# Configuration
 
 ```shell
 php artisan vendor:publish --provider="Nakukryskin\InstagramApi\LaravelInstagramApiProvider" --tag=config
@@ -40,7 +38,7 @@ php artisan vendor:publish --provider="Nakukryskin\InstagramApi\LaravelInstagram
 
 Edit `config/instagram-api.php`.
 
-#Calling
+# Usage
 
 Methods same [Instagram Private API](https://github.com/mgp25/Instagram-API/) package.
 
