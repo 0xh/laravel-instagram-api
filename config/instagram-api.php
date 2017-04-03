@@ -15,7 +15,7 @@ return [
      * Settings adapter
      * @var array|null
      */
-    'settings_adapter' => null,
+    'storage_config' => [],
 
     /**
      * Enable or disable using proxies in the API
